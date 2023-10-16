@@ -475,8 +475,8 @@ MRS_opt.d = d;
 %(H,RF,Tp,flipAngle,phase,dfdx,grad)
 
 %% load excitation pulse
-%excWaveform = 'univ_spreddenrex.pta';
-excWaveform = 'Philips_spredrex.pta';
+excWaveform = 'univ_spreddenrex.pta';
+%excWaveform = 'Philips_spredrex.pta';
 RF_struct = io_loadRFwaveform (excWaveform,'exc',0);
 MRS_opt.excRF = RF_struct;
 

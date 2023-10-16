@@ -1,15 +1,15 @@
 {
     "userInput": {
-        "metablist": ["GABA","GSH","Lac"],
-        "vendor": ["Siemens"], 
+        "metablist": ["Ala","Asc","Asp","Cit","Cr","EtOH","GABA","GPC","GSH","Gln","Glu","Gly","Ins","Lac","NAA","NAAG","PCh","PCr","Phenyl","Scyllo","Ser","Tau","Tyros","NAA_Acetyl_only", "NAA_Aspartate_only","H2O","CrCH2"],
+        "vendor": ["Philips"], 
         "mega_or_hadam": ["UnEdited"],
         "localization": ["PRESS"],
         "editTarget": ["GABA"],
-      	"TE": 68,
+      	"TE": 30,
       	"editOn": 1.9,
       	"editOff": 7.5,
         "editTp": 20,
-        "spatial_points": 11,
+        "spatial_points": 101,
         "tm": 30
     },
     "private": {
@@ -20,8 +20,8 @@
         "excflipAngle": 90
     },
     "DIRECTORY":{
-        "save_dir": "/Users/steve/Documents/My_Studies/MRSCloud/save_dir/",
-        "work_dir": "/Users/steve/Documents/My_Studies/MRSCloud/",
-        "outputFile": "/Users/steve/Documents/My_Studies/MRSCloud/mrs_sim_out.zip"
+        "save_dir": "C:\\Users\\dunja\\OneDrive\\Documents\\MATLAB\\MRSCloud\\save_dir\\",
+        "work_dir": "C:\\Users\\dunja\\OneDrive\\Documents\\MATLAB\\MRSCloud\\",
+        "outputFile": "C:\\Users\\dunja\\OneDrive\\Documents\\MATLAB\\MRSCloud\\mrs_sim_out.zip"
     }
 }
