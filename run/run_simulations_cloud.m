@@ -7,7 +7,7 @@ function basis = run_simulations_cloud(json_input)
 
 % Check spin systems of Valine (Val), Ethanolamine (EA), Isoleucine (ILc), Lysine (Lys)
 tic
-json_input      = 'C:\Users\dunja\OneDrive\Documents\MATLAB\MRSCloud\simMRS.json';
+json_input      = '/Users/steve/Documents/My_Studies/MRSCloud/simMRS.json';
 sim_paras_json  = loadjson(json_input);
 
 metab_default   = sim_paras_json.private.metab_default;
